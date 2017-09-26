@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "net-snmp": "^1.2.0",
     "ping-subnet": "^1.0.0"
   },
   "devDependencies": {},
