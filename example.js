@@ -1,8 +1,8 @@
 const SubnetDiscoverer = require('./');
 
-const subnetDiscovere = new SubnetDiscoverer();
+const subnetDiscoverer = new SubnetDiscoverer();
 
-subnetDiscovere.on('host:printer', (ip, deviceName) => {
+subnetDiscoverer.on('host:printer', (ip, deviceName) => {
   console.log('printer', ip, deviceName);
 });
-subnetDiscovere.discover();
+subnetDiscoverer.discover();
