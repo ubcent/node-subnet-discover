@@ -1,11 +1,11 @@
 {
   "name": "subnet-discover",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "net-snmp": "^1.2.0",
-    "ping-subnet": "^1.0.6"
+    "net-snmp": "^1.2.1",
+    "ping-subnet": "^1.1.2"
   },
   "devDependencies": {},
   "scripts": {

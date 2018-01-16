@@ -2,8 +2,8 @@ const SubnetsPinger = require('ping-subnet');
 const snmp = require('net-snmp');
 
 class SubnetDiscoverer extends SubnetsPinger {
-  constructor() {
-    super();
+  constructor(_ranges) {
+    super(_ranges);
   }
 
   discover() {
