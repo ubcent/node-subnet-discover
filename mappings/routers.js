@@ -7,7 +7,7 @@ module.exports = [{
   name: "ipForwarding",
   descr: "The indication of whether this entity is acting as an IPv4 router"
 }, {
-  oid: "[1.3.6.1.2.1.15.3",
+  oid: "1.3.6.1.2.1.15.3",
   name: "bgpPeerTable",
   descr: "BGP peer table"
 }, {
